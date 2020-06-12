@@ -80,6 +80,7 @@ function addLinkFromRegexpMatch(node, match, href) {
   const link = document.createElement("a");
   link.setAttribute("href", href);
   link.setAttribute("target", "_blank");
+  link.setAttribute("class", "iarchive-link");
 
   // Insert link into DOM then move the text into the link
   linkText.parentNode.insertBefore(link, linkText);
