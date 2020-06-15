@@ -11,6 +11,5 @@ a.iarchive-link:visited {
 }
 
 a.iarchive-link:hover {
-  background-color: blue;
   text-decoration: underline !important;
 }
