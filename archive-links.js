@@ -4,6 +4,8 @@
 document.addEventListener(
 	"textlayerrendered", 
 	function(event) {
+    console.log(event)
+    console.log(PDFViewerApplication)
     if (event.detail.pageNumber === PDFViewerApplication.page) {
       console.log("Finished rendering, adding ISBN links...");
       findISBNs();
