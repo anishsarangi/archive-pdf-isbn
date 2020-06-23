@@ -5,11 +5,6 @@ a.iarchive-link {
   text-decoration: none !important;
 }
 
-a.iarchive-link:visited {
-	color: transparent;
-  background-color: #5454c0;
-}
-
 a.iarchive-link:hover {
   background-color: #5454c0 !important;
   text-decoration: underline !important;
