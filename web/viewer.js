@@ -3491,7 +3491,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "0412107.pdf",
+    value: "report.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
